@@ -1,3 +1,24 @@
 h1{
-  color: red;
+  color: rgb(162, 239, 193);
 }
+
+body{
+  background-color: rgb(96, 15, 115);
+}
+
+div.dice{
+  float:left;
+  width:32px;
+  background:#e8ec9b;
+  border:rgb(26, 25, 25) 1px solid;
+  padding:10px;
+  font-size:24px;
+  text-align:center;
+  margin:5px;
+}
+
+h2{
+  clear:left;
+  color:rgb(145, 145, 226);
+}
+
