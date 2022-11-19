@@ -7,7 +7,7 @@ async function makeReq(){
   console.log(data);
   document.querySelector("#diceRollResultOne").textContent = data.rollOne
   document.querySelector("#diceRollResultTwo").textContent = data.rollTwo
-  document.querySelector("#product").textContent = data.product
+  document.querySelector("#product").textContent = `${data.rollOne} x ${data.rollTwo} = ${data.product}`
 }
 
 
