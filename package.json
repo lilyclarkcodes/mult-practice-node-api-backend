@@ -1,0 +1,20 @@
+{
+  "name": "mult-practice-node-api-backend",
+  "version": "1.0.0",
+  "description": "Roll two 12-sided dice to generate two random whole numbers between 1-12 and display the product.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilyclarkcodes/mult-practice-node-api-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilyclarkcodes/mult-practice-node-api-backend/issues"
+  },
+  "homepage": "https://github.com/lilyclarkcodes/mult-practice-node-api-backend#readme"
+}
