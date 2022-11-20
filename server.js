@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs')
 const url = require('url');
 const figlet = require('figlet')
+const PORT = 8000
 
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
